@@ -1,0 +1,12 @@
+body{
+	background: #3498cd;
+	border: 10px solid #2d7fad;
+	color: white;
+}
+
+main{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+
+}
