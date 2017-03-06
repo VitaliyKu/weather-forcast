@@ -1,12 +1,110 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/*ширину и высоту указал в пикселях, не могу избавится от левого
+отступа в мейне и его не видно на разметке блока, я сдался:( + 
+не смог перенести иконки на строку ниже*/
+
 body{
 	background: #3498cd;
 	border: 10px solid #2d7fad;
 	color: white;
+	transition: all .1s ease-in;
+	margin: 0;
+	padding: 0;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
 }
 
 main{
-	display: inline-block;
-	width: 100%;
-	height: 100%;
-
+	max-width: 950px;
+	margin: 0 auto;
 }
+
+li{
+	display: inline-block;
+	width: 20%;
+	border: 3px solid white;
+	line-height: 5;
+	text-align: center;
+	font-size: 18px;
+}
+
+ul{
+	font-size: 0;
+}
+
+ul:hover li:not(:hover) {
+  background-color: rgb(180 180 180);
+  opacity: 0.6;
+}
+
+img {
+	display:inline-block;
+	max-width: 50%;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+}
+
+header{
+	max-width: 870px;
+	margin: 20px auto;
+	text-align: left;
+}
+
+.lisbon{
+	background: #3498cd;
+	width: 370px;
+}
+
+.paris{
+	background:#33cbcd;
+}
+
+.belgrade{
+	background: #976799;
+}
+
+.moscow{
+	background: #c24748;
+}
+
+.telaviv{
+	background: #e26649;
+}
+
+.cair{
+	background: #ffcc67;
+}
+
+.newyork{
+	background: #9acb9b;
+}
+
+.newdelphi{
+	background: #66999b;
+}
+
+.sanfrancisco{
+	background: #cd6599;
+	width: 370px;
+}
+
+.tokyo{
+	background: #349968;
+}
+
+.sydney{
+	background: #676699;
+	width: 746px;
+}
+
+footer{
+	max-width: 870px;
+	margin: 20px auto;
+	text-align: left;
+}
+
